@@ -7,14 +7,13 @@
  */
 
 plugins {
-    // Apply the java-library plugin to add support for Java Library
     id 'java-library'
+    id 'eclipse'
+    id 'java'
 }
 
 repositories {
-    // Use jcenter for resolving dependencies.
-    // You can declare any Maven/Ivy/file repository here.
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -23,7 +22,13 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:28.0-jre'
+    // https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis
+    // use version 2.5.x as anything above will return that AbstractRequest error
+    // see https://github.com/rest-assured/rest-assured/issues/880
+	implementation 'com.github.scribejava:scribejava-apis:2.5.3'
 
-    // Use JUnit test framework
+    // Use Rest Assured and JUnit test framework
+    testImplementation 'io.rest-assured:rest-assured:4.3.0'
     testImplementation 'junit:junit:4.12'
+    
 }
