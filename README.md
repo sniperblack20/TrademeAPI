@@ -4,7 +4,6 @@ The target application is the [Trademe Sandbox](https://www.tmsandbox.co.nz/) we
 
 ## Prerequisites
 1. Trademe Sandbox account
-2. Trademe sandbox Oauth tokens (for the sake of executing these tests, I included my tokens in a tokens.properties file)
 
 ## Tools 
 The following tools/libraries were used in this project.

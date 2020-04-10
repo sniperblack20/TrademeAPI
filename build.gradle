@@ -22,10 +22,6 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:28.0-jre'
-    // https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis
-    // use version 2.5.x as anything above will return that AbstractRequest error
-    // see https://github.com/rest-assured/rest-assured/issues/880
-	implementation 'com.github.scribejava:scribejava-apis:2.5.3'
 	implementation 'io.rest-assured:rest-assured:4.3.0'
     // Use Rest Assured and JUnit test framework
     

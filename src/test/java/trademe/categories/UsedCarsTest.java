@@ -7,20 +7,14 @@ import static org.junit.Assert.assertTrue;
 import java.io.IOException;
 import java.util.List;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import trademe.utilities.CommonUtilities;
 
 public class UsedCarsTest  {
-	public String consumerKey;
-	public String consumerSecret;
-	public String accessToken;
-	public String tokenSecret;
 	
 	public static Response resp;
     public static String jsonAsString;
@@ -28,23 +22,10 @@ public class UsedCarsTest  {
     static final String BASE_URL = "https://api.tmsandbox.co.nz/v1/Categories/UsedCars.json";
     static final String SANDBOX_BASE_URL = "https://api.tmsandbox.co.nz/";
 	
-	@Before
-	public void setTokens() throws IOException {
-		// Initialize, get tokens from properties file
-		CommonUtilities comutils = new CommonUtilities();
-		
-		consumerKey = comutils.getTokensFromPropertiesFile("consumerKey");
-		consumerSecret = comutils.getTokensFromPropertiesFile("consumerSecret");
-		accessToken = comutils.getTokensFromPropertiesFile("accessToken");
-		tokenSecret = comutils.getTokensFromPropertiesFile("tokenSecret");
-	}
-	
 	@Test
 	public void returnsStatusCode200Test() throws IOException {
 		// quick test for an API response
 		resp = RestAssured.given().
-		auth().
-		  oauth(consumerKey, consumerSecret, accessToken, tokenSecret).
 	    when().
 	    get(SANDBOX_BASE_URL + "v1/Categories/UsedCars.json");
 		
@@ -58,8 +39,6 @@ public class UsedCarsTest  {
 		// Return how many named brands of used cars are available in the TradeMe UsedCars category.
 		
 		resp = RestAssured.given().
-		auth().
-		  oauth(consumerKey, consumerSecret, accessToken, tokenSecret).
 	    when().
 	    get(SANDBOX_BASE_URL + "v1/Categories/UsedCars.json").
 	    then().
@@ -94,8 +73,6 @@ public class UsedCarsTest  {
 		String brandToCheck = "Kia";
 		
 		resp = RestAssured.given().
-		auth().
-		  oauth(consumerKey, consumerSecret, accessToken, tokenSecret).
 	    when().
 	    get(SANDBOX_BASE_URL + "v1/Categories/UsedCars.json").
 	    then().
@@ -128,8 +105,6 @@ public class UsedCarsTest  {
 		String brandToCheck = "Kia";
 		
 		resp = RestAssured.given().
-		auth().
-		  oauth(consumerKey, consumerSecret, accessToken, tokenSecret).
 	    when().
 	    get(SANDBOX_BASE_URL + "v1/Categories/UsedCars.json?with_counts=true").
 	    then().
@@ -177,8 +152,6 @@ public class UsedCarsTest  {
 		String brandToCheck = "Hispano Suiza";
 		
 		resp = RestAssured.given().
-		auth().
-		  oauth(consumerKey, consumerSecret, accessToken, tokenSecret).
 	    when().
 	    get(SANDBOX_BASE_URL + "v1/Categories/UsedCars.json").
 	    then().
@@ -201,14 +174,5 @@ public class UsedCarsTest  {
 		    }		    
 		}
 		assertTrue("Car brand " + brandToCheck + " should not be in the list.", carFound == false);
-	}
-	
-	// non requirement
-	public void checkTokens () throws IOException {
-		CommonUtilities comutils = new CommonUtilities();
-		System.out.println(comutils.getTokensFromPropertiesFile("consumerKey"));
-		System.out.println(comutils.getTokensFromPropertiesFile("consumerSecret"));
-		System.out.println(comutils.getTokensFromPropertiesFile("accessToken"));
-		System.out.println(comutils.getTokensFromPropertiesFile("tokenSecret"));
 	}
 }
