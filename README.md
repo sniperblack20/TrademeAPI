@@ -55,7 +55,7 @@ $ ./gradlew test
 4. [Optional] You can now import these via IDE. File > Import > Git projects
 
 ## Reports
-A detailed html report will be generated when this suite is used via Eclipse. It can be found under build/reports/test.
+A detailed html report will be generated when this suite is used via Eclipse or via gradle build. It can be found under build/reports/test.
 
 ## Contributing
 Pull requests are not welcome. This repo is for my personal consumption only. It may be removed without prior notice.
