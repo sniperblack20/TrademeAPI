@@ -43,6 +43,11 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.3.0/92fcd8b994f1cb226d1449bda486bbef521e56a2/rest-assured-4.3.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.3.0/c85756689126b10001aab7ff9e9d8851e3313b2d/rest-assured-4.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -83,10 +88,99 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.3.0/92fcd8b994f1cb226d1449bda486bbef521e56a2/rest-assured-4.3.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.3.0/c85756689126b10001aab7ff9e9d8851e3313b2d/rest-assured-4.3.0.jar">
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/xml-path/4.3.0/30403105739705593b841b456e6ef515a5dfbe23/xml-path-4.3.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/xml-path/4.3.0/ba73c9fa3791ec159ddc984b2871832d2a99e476/xml-path-4.3.0.jar">
 		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.2/c5086e6b4f47294e51a21284661449ab44e817d0/groovy-xml-3.0.2-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.2/514f857b89f22f98a63f4e5f3ae3d144f348eda/groovy-xml-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/json-path/4.3.0/b3fc26244ec8239af273b98517bc4c628726b0f9/json-path-4.3.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/json-path/4.3.0/821aae4a426d701aa4ffc90b31da1cb2eb5214d2/json-path-4.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.2/782df91e9fe49b5195d16f4a483a8578aec8a444/groovy-json-3.0.2-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.2/201f7d3d65fa4e4b6d3d816d958adfee023896da/groovy-json-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured-common/4.3.0/20ffdf011a7b99aeee9b1324c8b808e9c9cd7de4/rest-assured-common-4.3.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured-common/4.3.0/e1d96dce2b2c2f7146bbee799c2cf971ebbcddaf/rest-assured-common-4.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.2/b53a872be88282957b3bb6c2368c8b234308d53e/groovy-3.0.2-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.2/6612531c3416728326a99dc3127b4ee084056c62/groovy-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.3/1464bba4356346fbb8b71827a90b16c85b927542/httpmime-4.5.3-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.3/889fd6d061bb63b99dd5c6aba35a555ae863de52/httpmime-4.5.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/4969730c661fff76fa7f9d4c7c61545817f5b033/httpclient-4.5.3-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/d1577ae15f01ef5438c5afc62162457c00a34713/httpclient-4.5.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.1/aa6763235632b77fd9245c850b6a7dc09382314c/hamcrest-2.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.1/9420ba32c29217b54eebd26ff7f9234d31c3fbb2/hamcrest-2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/31cbf81bece906e382034d2b04e2e5c47e864c17/tagsoup-1.2.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/5584627487e984c03456266d3f8802eb85a9ce97/tagsoup-1.2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/57cc0a7af46d66754e632bddc558a913b9e66ac3/httpcore-4.4.6-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/e3fd8ced1f52c7574af952e2e6da0df8df08eb82/httpcore-4.4.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/b49dafc9cfef24c356827f322e773e7c26725dd2/commons-lang3-3.4-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/5fe28b9518e58819180a43a850fbc0dd24b7c050/commons-lang3-3.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.2/8f7b9baa75556d2c03371c7e4b45b484683c7d28/jakarta.xml.bind-api-2.3.2-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.2/8d49996a4338670764d7ca4b85a1c4ccf7fe665d/jakarta.xml.bind-api-2.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-osgi/2.3.0.1/4cb60785fe7134fa6048eed92bd1cffb08d6bf62/jaxb-osgi-2.3.0.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-osgi/2.3.0.1/57fd487367b130a35395d0ea0e765bfb1833902c/jaxb-osgi-2.3.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.sling/org.apache.sling.javax.activation/0.1.0/731288ff4a1bce8f7462262f2d29039b2a10a55/org.apache.sling.javax.activation-0.1.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.sling/org.apache.sling.javax.activation/0.1.0/606ef790ce33d9cd6b892c47cc2a9508efc57698/org.apache.sling.javax.activation-0.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.1/6fe481428613e57af220e17b9ebf3475fb27efb8/jakarta.activation-api-1.2.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.1/562a587face36ec7eff2db7f2fc95425c6602bc1/jakarta.activation-api-1.2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1.1/159e45688875fdabff19c9ceb7335aefe4df8339/activation-1.1.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1.1/485de3a253e23f645037828c07f1d7f1af40763a/activation-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar">
@@ -95,121 +189,7 @@
 			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/xml-path/4.3.0/30403105739705593b841b456e6ef515a5dfbe23/xml-path-4.3.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/xml-path/4.3.0/ba73c9fa3791ec159ddc984b2871832d2a99e476/xml-path-4.3.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.2/c5086e6b4f47294e51a21284661449ab44e817d0/groovy-xml-3.0.2-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.2/514f857b89f22f98a63f4e5f3ae3d144f348eda/groovy-xml-3.0.2.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/json-path/4.3.0/b3fc26244ec8239af273b98517bc4c628726b0f9/json-path-4.3.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/json-path/4.3.0/821aae4a426d701aa4ffc90b31da1cb2eb5214d2/json-path-4.3.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.2/782df91e9fe49b5195d16f4a483a8578aec8a444/groovy-json-3.0.2-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.2/201f7d3d65fa4e4b6d3d816d958adfee023896da/groovy-json-3.0.2.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured-common/4.3.0/20ffdf011a7b99aeee9b1324c8b808e9c9cd7de4/rest-assured-common-4.3.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured-common/4.3.0/e1d96dce2b2c2f7146bbee799c2cf971ebbcddaf/rest-assured-common-4.3.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.2/b53a872be88282957b3bb6c2368c8b234308d53e/groovy-3.0.2-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.2/6612531c3416728326a99dc3127b4ee084056c62/groovy-3.0.2.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.3/1464bba4356346fbb8b71827a90b16c85b927542/httpmime-4.5.3-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.3/889fd6d061bb63b99dd5c6aba35a555ae863de52/httpmime-4.5.3.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/4969730c661fff76fa7f9d4c7c61545817f5b033/httpclient-4.5.3-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.3/d1577ae15f01ef5438c5afc62162457c00a34713/httpclient-4.5.3.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.1/aa6763235632b77fd9245c850b6a7dc09382314c/hamcrest-2.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.1/9420ba32c29217b54eebd26ff7f9234d31c3fbb2/hamcrest-2.1.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/31cbf81bece906e382034d2b04e2e5c47e864c17/tagsoup-1.2.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/5584627487e984c03456266d3f8802eb85a9ce97/tagsoup-1.2.1.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/57cc0a7af46d66754e632bddc558a913b9e66ac3/httpcore-4.4.6-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.6/e3fd8ced1f52c7574af952e2e6da0df8df08eb82/httpcore-4.4.6.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/b49dafc9cfef24c356827f322e773e7c26725dd2/commons-lang3-3.4-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/5fe28b9518e58819180a43a850fbc0dd24b7c050/commons-lang3-3.4.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.2/8f7b9baa75556d2c03371c7e4b45b484683c7d28/jakarta.xml.bind-api-2.3.2-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.2/8d49996a4338670764d7ca4b85a1c4ccf7fe665d/jakarta.xml.bind-api-2.3.2.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-osgi/2.3.0.1/4cb60785fe7134fa6048eed92bd1cffb08d6bf62/jaxb-osgi-2.3.0.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-osgi/2.3.0.1/57fd487367b130a35395d0ea0e765bfb1833902c/jaxb-osgi-2.3.0.1.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.sling/org.apache.sling.javax.activation/0.1.0/731288ff4a1bce8f7462262f2d29039b2a10a55/org.apache.sling.javax.activation-0.1.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.apache.sling/org.apache.sling.javax.activation/0.1.0/606ef790ce33d9cd6b892c47cc2a9508efc57698/org.apache.sling.javax.activation-0.1.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.1/6fe481428613e57af220e17b9ebf3475fb27efb8/jakarta.activation-api-1.2.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.1/562a587face36ec7eff2db7f2fc95425c6602bc1/jakarta.activation-api-1.2.1.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1.1/159e45688875fdabff19c9ceb7335aefe4df8339/activation-1.1.1-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1.1/485de3a253e23f645037828c07f1d7f1af40763a/activation-1.1.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="test"/>
 			<attribute name="test" value="true"/>

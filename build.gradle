@@ -26,9 +26,9 @@ dependencies {
     // use version 2.5.x as anything above will return that AbstractRequest error
     // see https://github.com/rest-assured/rest-assured/issues/880
 	implementation 'com.github.scribejava:scribejava-apis:2.5.3'
-
+	implementation 'io.rest-assured:rest-assured:4.3.0'
     // Use Rest Assured and JUnit test framework
-    testImplementation 'io.rest-assured:rest-assured:4.3.0'
+    
     testImplementation 'junit:junit:4.12'
     
 }
