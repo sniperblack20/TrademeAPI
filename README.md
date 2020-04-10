@@ -25,7 +25,7 @@ $ git clone https://github.com/sniperblack20/TrademeAPI.git
 
 2. Navigate to where the project was downloaded.
 
-3. Build 
+3. Build (and test)
 
 For eclipse users:
 
@@ -51,6 +51,8 @@ If you wanted to run the tests:
 ```console
 $ ./gradlew test
 ```
+
+4. [Optional] You can now import these via IDE. File > Import > Git projects
 
 ## Reports
 A detailed html report will be generated when this suite is used via Eclipse. It can be found under build/reports/test.
