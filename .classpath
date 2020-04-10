@@ -38,11 +38,6 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-apis/2.5.3/fa321e4d5bc11ca480ab0284ee3b1acb802099cf/scribejava-apis-2.5.3-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-apis/2.5.3/f82a9cd2d6700085cccf8ccd25b59c2bf0572bb9/scribejava-apis-2.5.3.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.3.0/92fcd8b994f1cb226d1449bda486bbef521e56a2/rest-assured-4.3.0-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.3.0/c85756689126b10001aab7ff9e9d8851e3313b2d/rest-assured-4.3.0.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -79,11 +74,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/8fb5b5ad9c9723951b9fccaba5bb657fa6064868/animal-sniffer-annotations-1.17-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-core/2.5.3/b9f49e41154e008a609cd01daea8684c8cbce73d/scribejava-core-2.5.3-sources.jar" kind="lib" path="C:/Users/HobbyOwyeah/.gradle/caches/modules-2/files-2.1/com.github.scribejava/scribejava-core/2.5.3/2a7b8c4d16e8c9aa5950e8678244122b5eded9e/scribejava-core-2.5.3.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
