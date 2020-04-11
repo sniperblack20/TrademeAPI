@@ -4,13 +4,10 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-import java.io.IOException;
 import java.util.List;
 
 import org.junit.Test;
 
-import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
@@ -18,34 +15,33 @@ public class UsedCarsTest  {
 	
 	public static Response resp;
     public static String jsonAsString;
-    
-    static final String BASE_URL = "https://api.tmsandbox.co.nz/v1/Categories/UsedCars.json";
-    static final String SANDBOX_BASE_URL = "https://api.tmsandbox.co.nz/";
 	
 	@Test
-	public void returnsStatusCode200Test() throws IOException {
+	public void returnsStatusCode200OnCarBrandsTest() {
 		// quick test for an API response
-		resp = RestAssured.given().
-	    when().
-	    get(SANDBOX_BASE_URL + "v1/Categories/UsedCars.json");
+		UsedCars uc = new UsedCars();
+		resp = uc.getListOfUsedCarsManufacturers();
 		
 		assertEquals("Response should be 200.", 200, resp.getStatusCode());
 		System.out.println("Response: " + resp.getStatusCode());
 	}
 	
 	@Test
-	public void returnAllUsedCarsBrandsTest() throws IOException {
+	public void returnsStatusCode200OnCarBrandsWithListingsTest() {
+		// quick test for an API response
+		UsedCars uc = new UsedCars();
+		resp = uc.getListOfUsedCarsManufacturersWithListings();
+		
+		assertEquals("Response should be 200.", 200, resp.getStatusCode());
+		System.out.println("Response: " + resp.getStatusCode());
+	}
+	
+	@Test
+	public void returnAllUsedCarsBrandsTest() {
 		// Exercise 1 
 		// Return how many named brands of used cars are available in the TradeMe UsedCars category.
-		
-		resp = RestAssured.given().
-	    when().
-	    get(SANDBOX_BASE_URL + "v1/Categories/UsedCars.json").
-	    then().
-	    // check that the content type return from the API is JSON
-        contentType(ContentType.JSON).  
-        // extract the response
-        extract().response(); 
+		UsedCars uc = new UsedCars();
+		resp = uc.getListOfUsedCarsManufacturers();
 		
 		JsonPath jsonPathValidator = resp.jsonPath();
 		//To print the list of Car brands from the response
@@ -72,12 +68,8 @@ public class UsedCarsTest  {
 		
 		String brandToCheck = "Kia";
 		
-		resp = RestAssured.given().
-	    when().
-	    get(SANDBOX_BASE_URL + "v1/Categories/UsedCars.json").
-	    then().
-        contentType(ContentType.JSON). 
-        extract().response(); 
+		UsedCars uc = new UsedCars();
+		resp = uc.getListOfUsedCarsManufacturers();
 		
 		JsonPath jsonPathValidator = resp.jsonPath();
 		
@@ -104,12 +96,8 @@ public class UsedCarsTest  {
 		
 		String brandToCheck = "Kia";
 		
-		resp = RestAssured.given().
-	    when().
-	    get(SANDBOX_BASE_URL + "v1/Categories/UsedCars.json?with_counts=true").
-	    then().
-        contentType(ContentType.JSON). 
-        extract().response(); 
+		UsedCars uc = new UsedCars();
+		resp = uc.getListOfUsedCarsManufacturersWithListings();
 		
 		JsonPath jsonPathValidator = resp.jsonPath();
 		
@@ -151,12 +139,8 @@ public class UsedCarsTest  {
 		
 		String brandToCheck = "Hispano Suiza";
 		
-		resp = RestAssured.given().
-	    when().
-	    get(SANDBOX_BASE_URL + "v1/Categories/UsedCars.json").
-	    then().
-        contentType(ContentType.JSON). 
-        extract().response(); 
+		UsedCars uc = new UsedCars();
+		resp = uc.getListOfUsedCarsManufacturersWithListings();
 		
 		JsonPath jsonPathValidator = resp.jsonPath();
 		

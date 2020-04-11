@@ -1,20 +1,34 @@
 package trademe.categories;
 
-import java.io.IOException;
-
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
-// This class is not yet needed for the exercise, but I'll leave it here for the next features
-// and future optimizations
+import trademe.utilities.CommonUtilities;
 
 public class UsedCars {
 		
-	public Response getListOfUsedCarsManufacturers() throws IOException {
-		
+	public Response getListOfUsedCarsManufacturers() {
+		CommonUtilities cu = new CommonUtilities();
 		Response resp = RestAssured.given().
 	    when().
-	    get("https://api.tmsandbox.co.nz/v1/Categories/UsedCars.json");
+	    get(cu.SANDBOX_BASE_URL + "v1/Categories/UsedCars.json").
+		then().
+	    // check that the content type return from the API is JSON
+        contentType(ContentType.JSON).  
+        // extract the response
+        extract().response();
+		
+		return resp;
+	}
+	
+	public Response getListOfUsedCarsManufacturersWithListings() {
+		CommonUtilities cu = new CommonUtilities();
+		Response resp = RestAssured.given().
+	    when().
+	    get(cu.SANDBOX_BASE_URL + "v1/Categories/UsedCars.json?with_counts=true").
+		then().
+        contentType(ContentType.JSON).  
+        extract().response();
 		
 		return resp;
 	}
